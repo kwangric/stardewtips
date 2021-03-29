@@ -23,7 +23,11 @@ body, .album {
 
 .links {
   text-align: center;
-  padding: 5%;
+  padding: 3%;
+}
+
+.btn {
+  margin: 1%;
 }
 
 /* Villager Gift Guide */
