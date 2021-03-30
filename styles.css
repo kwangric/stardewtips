@@ -158,3 +158,15 @@ body, .album {
 .legendary {
   width: 250%;
 }
+
+.filters-card {
+  justify-content: flex-start;
+}
+
+.filters {
+  padding: 3%;
+}
+
+.remove-card {
+
+}

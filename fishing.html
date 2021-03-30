@@ -35,6 +35,134 @@
       </div>
     </section>
 
+    <!-- Filters -->
+
+    <div class="title">
+      <p>Filter</p>
+    </div>
+
+    <div class="album py-2">
+
+      <div class="container-fluid">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 g-3">
+
+          <!-- Season -->
+          <div class="col">
+            <div class="card filters-card">
+              <p class="card-text title">
+                Season
+              </p>
+
+              <div class="filters">
+                <p>
+                  <input type="checkbox" name="spring" >
+                  <label for="spring">Spring</label>
+                </p>
+                <p>
+                  <input type="checkbox" name="summer" >
+                  <label for="summer">Summer</label>
+                </p>
+                <p>
+                  <input type="checkbox" name="fall" checked>
+                  <label for="fall">Fall</label>
+                </p>
+                <p>
+                  <input type="checkbox" name="winter">
+                  <label for="winter">Winter</label>
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Location -->
+          <div class="col">
+            <div class="card filters-card">
+              <p class="card-text title">
+                Location
+              </p>
+
+              <div class="filters">
+                <div class="row">
+                  <div class="col">
+                    <p>
+                      <input type="checkbox" name="ocean" checked>
+                      <label for="ocean">Ocean</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" name="river" checked>
+                      <label for="river">River</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" name="mountain-lake" checked>
+                      <label for="Fall">mountain-lake</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" name="pond" checked>
+                      <label for="pond">Forest Pond</label>
+                    </p>
+
+                    <p>
+                      <input type="checkbox" name="desert" checked>
+                      <label for="desert">Desert</label>
+                    </p>
+                  </div>
+                  <div class="col">
+                    <p>
+                      <input type="checkbox" name="ginger-island" checked>
+                      <label for="ginger-island">Ginger Island</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" name="mines" checked>
+                      <label for="mines">Mines</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" name="secret-woods" checked>
+                      <label for="secret-woods">Secret Woods</label>
+                    </p>
+
+                    <p>
+                      <input type="checkbox" name="swamp" checked>
+                      <label for="swamp">Witch's Swamp</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" name="lair" checked>
+                      <label for="lair">Mutant Bug Lair</label>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Weather -->
+          <div class="col">
+            <div class="card filters-card">
+              <p class="card-text title">
+                Weather
+              </p>
+              <div class="filters">
+                <p>
+                  <input type="checkbox" name="sun" checked>
+                  <label for="sun">Sunny</label>
+                </p>
+                <p>
+                  <input type="checkbox" name="rain" >
+                  <label for="rain">Rain</label>
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
     <div class="title">
       <h3>Fishing Pole Fish</h3>
     </div>
@@ -2196,7 +2324,7 @@
           <div class="col crab-pot ocean foragable spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/Clam.png" alt="Clam">
+                <img src="images/fish/Clam.png" alt="Clam">
 
                 <p class="card-text fish-name">
                   Clam
@@ -2221,7 +2349,7 @@
           <div class="col crab-pot ocean foragable spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/Cockle.png" alt="Cockle">
+                <img src="images/fish/Cockle.png" alt="Cockle">
 
                 <p class="card-text fish-name">
                   Cockle
@@ -2238,7 +2366,7 @@
           <div class="col crab-pot ocean spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/Crab.png" alt="Crab">
+                <img src="images/fish/Crab.png" alt="Crab">
 
                 <p class="card-text fish-name">
                   Crab
@@ -2259,7 +2387,7 @@
           <div class="col crab-pot freshwater spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/Crayfish.png" alt="Crayfish">
+                <img src="images/fish/Crayfish.png" alt="Crayfish">
 
                 <p class="card-text fish-name">
                   Crayfish
@@ -2280,7 +2408,7 @@
           <div class="col crab-pot ocean spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/Lobster.png" alt="Lobster">
+                <img src="images/fish/Lobster.png" alt="Lobster">
 
                 <p class="card-text fish-name">
                   Lobster
@@ -2309,7 +2437,7 @@
           <div class="col crab-pot ocean foragable spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/Mussel.png" alt="Mussel">
+                <img src="images/fish/Mussel.png" alt="Mussel">
 
                 <p class="card-text fish-name">
                   Mussel
@@ -2330,7 +2458,7 @@
           <div class="col crab-pot ocean foragable spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/Oyster.png" alt="Oyster">
+                <img src="images/fish/Oyster.png" alt="Oyster">
 
                 <p class="card-text fish-name">
                   Oyster
@@ -2347,7 +2475,7 @@
           <div class="col crab-pot freshwater spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/Periwinkle.png" alt="Periwinkle">
+                <img src="images/fish/Periwinkle.png" alt="Periwinkle">
 
                 <p class="card-text fish-name">
                   Periwinkle
@@ -2372,7 +2500,7 @@
           <div class="col crab-pot ocean spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/Shrimp.png" alt="Shrimp">
+                <img src="images/fish/Shrimp.png" alt="Shrimp">
 
                 <p class="card-text fish-name">
                   Shrimp
@@ -2397,7 +2525,7 @@
           <div class="col crab-pot freshwater spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/Snail.png" alt="Snail">
+                <img src="images/fish/Snail.png" alt="Snail">
 
                 <p class="card-text fish-name">
                   Snail
@@ -2441,7 +2569,7 @@
           <div class="col freshwater spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/Green_Algae.png" alt="Green Algae">
+                <img src="images/fish/Green_Algae.png" alt="Green Algae">
 
                 <p class="card-text fish-name">
                   Green Algae
@@ -2466,7 +2594,7 @@
           <div class="col ocean foragable spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/Seaweed.png" alt="Seaweed">
+                <img src="images/fish/Seaweed.png" alt="Seaweed">
 
                 <p class="card-text fish-name">
                   Seaweed
@@ -2487,7 +2615,7 @@
           <div class="col mines sewers mutant-bug-lair swamp foragable spring summer fall winter">
             <div class="card">
               <div class="fish">
-                  <img src="images/fish/White_Algae.png" alt="White Algae">
+                <img src="images/fish/White_Algae.png" alt="White Algae">
 
                 <p class="card-text fish-name">
                   White Algae
@@ -2517,6 +2645,9 @@
       <a href="#">Back to top</a>
     </div>
   </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="fishing.js" charset="utf-8"></script>
 
 </body>
 
