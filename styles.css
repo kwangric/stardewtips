@@ -122,7 +122,7 @@ body, .album {
   width: 150px;
   bottom: 100%;
   left: 50%;
-  margin-left: -75px;
+  margin-left: -200px;
 }
 
 .mytooltip:hover .mytooltippic {
@@ -134,10 +134,11 @@ body, .album {
 .fish {
   padding: 1rem;
   text-align: center;
+  flex-shrink: 1;
 }
 
 .fish-location {
-  flex:1 1 auto;
+  flex:1 0 auto;
   padding: 1rem;
   text-align: center;
   border-top: 2px solid black;
@@ -152,4 +153,8 @@ body, .album {
 .title {
   text-align: center;
   padding: 2%;
+}
+
+.legendary {
+  width: 250%;
 }
