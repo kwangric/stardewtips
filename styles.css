@@ -16,7 +16,7 @@ footer {
 }
 
 body, .album {
-  background-color: #d8f4fc;
+  background-color: #f0ffff;
 }
 
 /* Home Page */
@@ -27,7 +27,10 @@ body, .album {
 }
 
 .btn {
+  background-color: white;
   margin: 1%;
+  border: 1px solid #e5e5e5;
+  min-width:250px
 }
 
 /* Villager Gift Guide */
@@ -44,8 +47,10 @@ body, .album {
 .card {
   background-color: #fcfccc;
   border: 2px solid black;
+  border-radius: 15px;
   height: 100%;
   justify-content: space-between;
+  box-shadow: 1px 1px;
 }
 
 .card-body {
@@ -161,12 +166,10 @@ body, .album {
 
 .filters-card {
   justify-content: flex-start;
+  padding: 2%;
+  box-shadow: 0 0;
 }
 
 .filters {
   padding: 3%;
-}
-
-.remove-card {
-
 }
