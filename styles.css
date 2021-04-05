@@ -173,3 +173,19 @@ body, .album {
 .filters {
   padding: 3%;
 }
+
+/* Community Center Guide */
+
+.table {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+.bundle-table {
+  padding: 1% 15%;
+}
+
+.bundle-table .title {
+  text-align: center;
+  padding: 1%;
+}
