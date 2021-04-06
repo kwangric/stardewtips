@@ -179,6 +179,8 @@ body, .album {
 .table {
   table-layout: fixed;
   word-wrap: break-word;
+  border: 2px solid black;
+  box-shadow: 1px 1px;
 }
 
 .bundle-table {
@@ -188,4 +190,45 @@ body, .album {
 .bundle-table .title {
   text-align: center;
   padding: 1%;
+}
+
+.high-priority {
+  background-color: #fff0f5;
+}
+
+.medium-priority {
+  background-color: #fffff0;
+}
+
+.low-priority {
+  background-color: #f0fff0;
+}
+
+.completed {
+  background-color: #8fbc8f;
+  font-weight: bold;
+}
+
+.directions {
+  display: block;
+}
+
+.spring-head {
+  background-color: #98fb98;
+}
+
+.summer-head {
+background-color: #fffdd0;
+}
+
+.fall-head {
+background-color: #ffc87c;
+}
+
+.winter-head {
+background-color: #e0ffff;
+}
+
+.any-season-head, .any-season-optional-head {
+background-color: #ffffff;
 }
